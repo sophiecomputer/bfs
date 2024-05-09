@@ -1,0 +1,7 @@
+Implements a breadth-first search in Swi-Prolog. To run, do: 
+$ swipl bfs.pro
+# ?- bfs(a, b, Result). 
+# Result = [b, f, a].
+
+The last section of `bfs.pro` describes how the graph looks. Nodes are defined 
+along with their neighbors. 
